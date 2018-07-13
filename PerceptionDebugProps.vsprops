@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="NewPerceptionProps"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="..\include;   ..\include\CAM;   ..\include\HDL;   ..\include\LCM;   ..\include\RoadDetection;   $(BoostDir);   $(OPENCV2)\include\opencv;   $(OPENCV2)\include;   $(IC34PATH)\classlib\include;"
+		WarningLevel="2"
+		DebugInformationFormat="1"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib ILU.lib ILUT.lib"
+		AdditionalLibraryDirectories="..\lib;   ..\lib\CAM;   ..\lib\HDL;   ..\lib\LCM;   ..\lib\RoadDetection;   $(BoostDir)\lib32-msvc-9.0;   $(OPENCV2)\x86\vc14\lib;   $(OPENCV2)\x86\vc14\staticlib;   $(IC34PATH)\classlib\win32\release;"
+		DelayLoadDLLs="DevIL.dll;ILU.dll;ILUT.dll"
+	/>
+</VisualStudioPropertySheet>
