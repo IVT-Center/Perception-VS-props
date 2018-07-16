@@ -6,7 +6,7 @@
 	>
 	<Tool
 		Name="VCCLCompilerTool"
-		AdditionalIncludeDirectories="D:\Documents\IC Imaging Control 3.4\classlib\include E:\project\NewPerception20160811hjj\NewPerception\lib\CAM D:\boost_1_46_1\boost_1_46_1\output\include\boost-1_46_1 ..\include\HDL ..\include ..\include\LCM D:\boost_1_46_1 ..\include\RoadDetection D:\OpenCV\opencv\build\include\opencv2 D:\OpenCV\opencv\build\include\opencv D:\OpenCV\opencv\build\include D:\boost_1_46_1\boost_1_46_1\boost D:\boost_1_46_1\boost_1_46_1 D:\opencv\build\include\ D:\opencv\build\include\opencv C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\include"
+		AdditionalIncludeDirectories="D:\boost_1_46_1\boost_1_46_1\output\include\boost-1_46_1  ..\include ..\include\HDL ..\include\LCM F:\opencv2.3.1\opencv\build\include\opencv F:\opencv2.3.1\opencv\build\include D:\boost_1_46_1 ..\include\RoadDetection D:\OpenCV\opencv\build\include\opencv2 D:\OpenCV\opencv\build\include\opencv D:\OpenCV\opencv\build\include D:\Documents\IC Imaging Control 3.4\classlib\include"
 		WarningLevel="2"
 		DebugInformationFormat="1"
 	/>
@@ -14,7 +14,7 @@
 		Name="VCLinkerTool"
 		AdditionalDependencies="opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib roadmodeling.lib SkinMagic.lib"
 		
-		AdditionalLibraryDirectories="D:\Documents\IC Imaging Control 3.4\classlib\win32\release C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\win32\release D:\boost_1_46_1\boost_1_46_1\output\lib ..\lib\HDL ..\lib\LCM F:\opencv2.3.1\opencv\build\x86\vc9\lib D:\boost_1_46_1\stage\lib D:\boost_1_46_1\boost_1_46_1\stage\lib ..\lib\RoadDetection D:\OpenCV\opencv\build\x86\vc9\lib"
+		AdditionalLibraryDirectories="C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\win32\release D:\Documents\IC Imaging Control 3.4\classlib\win32\release D:\boost_1_46_1\boost_1_46_1\output\lib ..\lib\HDL ..\lib\LCM F:\opencv2.3.1\opencv\build\x86\vc9\lib D:\boost_1_46_1\stage\lib D:\boost_1_46_1\boost_1_46_1\stage\lib  ..\lib\RoadDetection D:\OpenCV\opencv\build\x86\vc9\lib"
 		DelayLoadDLLs="DevIL.dll"
 	/>
 </VisualStudioPropertySheet>
