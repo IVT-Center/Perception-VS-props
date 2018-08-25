@@ -6,14 +6,14 @@
 	>
 	<Tool
 		Name="VCCLCompilerTool"
-		AdditionalIncludeDirectories="..\include;   ..\include\CAM;   ..\include\HDL;   ..\include\LCM;   ..\include\RoadDetection;   $(BoostDir);   $(OPENCV2)\include\opencv;   $(OPENCV2)\include;   $(IC34PATH)\classlib\include;"
+		AdditionalIncludeDirectories="..\include;   ..\include\CAM;   ..\include\HDL;   ..\include\LCM;   ..\include\RoadDetection;   ..\include\Canlib\INC;   $(BoostDir);   $(OPENCV2)\include\opencv;   $(OPENCV2)\include;   $(IC34PATH)\classlib\include;"
 		WarningLevel="2"
 		DebugInformationFormat="1"
 	/>
 	<Tool
 		Name="VCLinkerTool"
-		AdditionalDependencies="opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_objdetect2413.lib opencv_video2413.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib ILU.lib ILUT.lib"
-		AdditionalLibraryDirectories="..\lib;   ..\lib\CAM;   ..\lib\HDL;   ..\lib\LCM;   ..\lib\RoadDetection;   $(BoostDir)\lib32-msvc-9.0;   $(OPENCV2)\x86\vc14\lib;   $(OPENCV2)\x86\vc14\staticlib;   $(IC34PATH)\classlib\win32\release;"
+		AdditionalDependencies="opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_haartraining_engine.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib ILU.lib ILUT.lib ControlCAN.lib canlib32.lib"
+		AdditionalLibraryDirectories="..\lib;   ..\lib\CAM;   ..\lib\HDL;   ..\lib\LCM;   ..\lib\RoadDetection;  ..\include\Canlib\Lib\MS;   $(BoostDir)\lib32-msvc-9.0;   $(OPENCV2)\x86\vc9\lib;   $(OPENCV2)\x86\vc9\staticlib;   $(IC34PATH)\classlib\win32\release;"
 		DelayLoadDLLs="DevIL.dll;ILU.dll;ILUT.dll"
 	/>
 </VisualStudioPropertySheet>

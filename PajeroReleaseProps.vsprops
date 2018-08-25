@@ -6,12 +6,12 @@
 	>
 	<Tool
 		Name="VCCLCompilerTool"
-		AdditionalIncludeDirectories="&quot;C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\include&quot;;&quot;D:\Documents\IC Imaging Control 3.4\classlib\include&quot;;E:\project\NewPerception20160811hjj\NewPerception\lib\CAM;&quot;D:\boost_1_46_1\boost_1_46_1\output\include\boost-1_46_1&quot;;..\include\HDL;..\include;..\include\LCM;D:\boost_1_46_1;..\include\RoadDetection;D:\OpenCV\opencv\build\include\opencv2;D:\OpenCV\opencv\build\include\opencv;D:\OpenCV\opencv\build\include;D:\boost_1_46_1\boost_1_46_1\boost;D:\boost_1_46_1\boost_1_46_1;D:\opencv\build\include\;D:\opencv\build\include\opencv"
+		AdditionalIncludeDirectories="&quot;C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\include&quot;;&quot;D:\Documents\IC Imaging Control 3.4\classlib\include&quot;;E:\project\NewPerception20160811hjj\NewPerception\lib\CAM;&quot;D:\boost_1_46_1\boost_1_46_1\output\include\boost-1_46_1&quot;;..\include\HDL;..\include;..\include\LCM;..\include\Canlib\INC;D:\boost_1_46_1;..\include\RoadDetection;D:\OpenCV\opencv\build\include\opencv2;D:\OpenCV\opencv\build\include\opencv;D:\OpenCV\opencv\build\include;D:\boost_1_46_1\boost_1_46_1\boost;D:\boost_1_46_1\boost_1_46_1;D:\opencv\build\include\;D:\opencv\build\include\opencv"
 	/>
 	<Tool
 		Name="VCLinkerTool"
-		AdditionalDependencies="opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib roadmodeling.lib SkinMagic.lib"
-		AdditionalLibraryDirectories="&quot;C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\win32\release&quot;;&quot;D:\Documents\IC Imaging Control 3.4\classlib\win32\release&quot;;D:\boost_1_46_1\boost_1_46_1\output\lib;..\lib\HDL;..\lib\LCM;F:\opencv2.3.1\opencv\build\x86\vc9\lib;D:\boost_1_46_1\stage\lib;D:\boost_1_46_1\boost_1_46_1\stage\lib;..\lib\RoadDetection;D:\OpenCV\opencv\build\x86\vc9\lib"
+		AdditionalDependencies="opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib Packet.lib wpcap.lib TIS_UDSHL11.lib lcmd.lib DevIL.lib roadmodeling.lib SkinMagic.lib ControlCAN.lib canlib32.lib"
+		AdditionalLibraryDirectories="&quot;C:\Users\Administrator\Documents\IC Imaging Control 3.4\classlib\win32\release&quot;;&quot;D:\Documents\IC Imaging Control 3.4\classlib\win32\release&quot;;D:\boost_1_46_1\boost_1_46_1\output\lib;..\lib\HDL;..\lib\LCM;..\include\Canlib\Lib\MS;F:\opencv2.3.1\opencv\build\x86\vc9\lib;D:\boost_1_46_1\stage\lib;D:\boost_1_46_1\boost_1_46_1\stage\lib;..\lib\RoadDetection;D:\OpenCV\opencv\build\x86\vc9\lib"
 		DelayLoadDLLs="DevIL.dll;"
 	/>
 </VisualStudioPropertySheet>
